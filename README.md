@@ -79,7 +79,8 @@ Should Get Status 200 if added successfully.
 	"link": "https://www.britannica.com/topic/Pokemon-electronic-game",
 	"image": "https://cdn.britannica.com/s:700x450/70/122270-004-0564DF2A.jpg",
 	"user_id": 1,
-	"category": "Test Article"
+	"category_id": 1,
+	"category_name": "Test Article"
 }
 
 ```
@@ -104,7 +105,8 @@ PUT / https://lambda-bw-pintereach.herokuapp.com/api/articles/:id
 	"link": "https://www.britannica.com/topic/Pokemon-electronic-game",
 	"image": "https://cdn.britannica.com/s:700x450/70/122270-004-0564DF2A.jpg",
 	"user_id": 1,
-	"category": "Updated Test Article"
+	"category_id: 1,
+	"category_name": "Updated Test Article"
 }
 
 ```
